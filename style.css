@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(83, 82, 82);
+}
+
+.contenedor-principal {
+    width: 400px;
+    height: 550px;
+    margin: 40px auto;
+    background-color: #48e;
+    border-radius: 25px;
+    padding-top: 1px;
+}
+
+.titulo {
+ color: rgb(15, 15, 15);  
+ text-align: center;
+
+}
+
+.pantalla {
+    width: 340px;
+    height: 70px;
+    background-color: silver;
+    margin: auto;
+    text-align: right;
+    align-content: space-between;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+.pantalla-dos {
+    width: 340px;
+    height: 30px;
+    background-color: silver;
+    margin: auto;
+    text-align: right;
+    font-size: 30px;
+}
+
+.botones {
+    width: 360px;
+    height: 400px;
+    margin: 10px 25px; 
+}
+
+.tecla {
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+
+.tecla:hover {
+    background: rgb(136, 156, 162);
+}
